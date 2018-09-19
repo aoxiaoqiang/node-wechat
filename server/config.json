@@ -1,0 +1,29 @@
+{
+  "token": "wechat",
+  "appID": "wx7079cd8f54fd5624",
+  "appScrect": "1fa820604fa721a7a24f47c75219852c",
+  "apiDomain": "https://api.weixin.qq.com/",
+  "apiURL": {
+    "accessToken": "%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+    "getcallbackip": "%scgi-bin/getcallbackip?access_token=%s",
+    "menu": {
+      "create": "%scgi-bin/menu/create?access_token=%s",
+      "get": "%scgi-bin/menu/get?access_token=%s",
+      "delete": "%scgi-bin/menu/delete?access_token=%s"
+    },
+    "user": {
+      "createTag": "%scgi-bin/tags/create?access_token=%s",
+      "getTags": "%scgi-bin/tags/get?access_token=%s",
+      "updateTag": "%scgi-bin/tags/update?access_token=%s",
+      "deleteTag": "%scgi-bin/tags/delete?access_token=%s",
+      "getUserByTag": "%scgi-bin/user/tag/get?access_token=%s",
+      "menberTags": "%scgi-bin/tags/members/batchtagging?access_token=%s",
+      "menberUntags": "%scgi-bin/tags/members/batchuntagging?access_token=%s",
+      "getTagsByUser": "%scgi-bin/tags/getidlist?access_token=%s",
+
+      "getUser": "%scgi-bin/user/get?access_token=%s&next_openid=%s",
+      "getUserInfo": "%scgi-bin/user/info?access_token=%s&openid=%s&lang=%s",
+      "getAllUserInfo": "%scgi-bin/user/info/batchget?access_token=%s"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "button": [{
+    "name": "搜索",
+    "sub_button": [{
+      "type": "view",
+      "name": "百度一下",
+      "url": "http://www.baidu.com/"
+    }, {
+      "type": "view",
+      "name": "搜狗",
+      "url": "http://www.soso.com/"
+    }, {
+      "type": "view",
+      "name": "360",
+      "url": "https://www.so.com/"
+    },{
+      "type": "click",
+      "name": "获取消息",
+      "key": "news"
+    }]
+  }, {
+    "name": "途虎养车",
+    "sub_button": [{
+      "type": "view",
+      "name": "首页",
+      "url": "https://wx.tuhu.cn"
+    }, {
+      "type": "view",
+      "name": "门店",
+      "url": "https://wx.tuhu.cn/Shops/List"
+    }, {
+      "type": "view",
+      "name": "轮胎",
+      "url": "https://wx.tuhu.cn/Tires?act=tire&type=autoselect"
+    }, {
+      "type": "click",
+      "name": "关于",
+      "key": "about"
+    }]
+  }, {
+    "name": "小工具",
+    "sub_button": [{
+      "type": "scancode_waitmsg",
+      "name": "扫一扫",
+      "key": "scancode"
+    }, {
+      "type": "pic_sysphoto",
+      "name": "系统拍照发图",
+      "key": "take_photo"
+    }, {
+      "type": "pic_photo_or_album",
+      "name": "拍照or选择",
+      "key": "take_photo_or_album"
+    }, {
+      "type": "pic_weixin",
+      "name": "微信相册",
+      "key": "weixin_album"
+    }, {
+      "type": "location_select",
+      "name": "发送位置",
+      "key": "send_location"
+    }]
+  }]
+}
